@@ -1,0 +1,113 @@
+%!Adobe-FontList 1.13
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\demo.html
+FileModTime:1504069370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE-Bold.eot
+FileModTime:1504069370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaCE-Bold
+FamilyName:Helvetica
+StyleName:CE Bold
+FullName:Helvetica CE Bold
+MenuName:Helvetica CE
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+FileLength:24324
+FileModTime:1498230694
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaCE-Bold
+FamilyName:Helvetica
+StyleName:CE Bold
+FullName:HelveticaCE-Bold
+MenuName:Helvetica CE
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE-Bold.ttf
+DataFormat:sfntData
+FileLength:29424
+FileModTime:1504069370
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE-Bold.woff
+FileModTime:1504069370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaCE-Narrow
+FamilyName:Helvetica
+StyleName:CE Narrow
+FullName:Helvetica CE Narrow
+MenuName:Helvetica CE Narrow
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE-Narrow.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+FileLength:24348
+FileModTime:1498230694
+WeightClass:400
+WidthClass:4
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaCE
+FamilyName:Helvetica
+StyleName:CE Medium
+FullName:Helvetica CE Medium
+MenuName:Helvetica CE
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\HelveticaCE.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+FileLength:24288
+FileModTime:1498230696
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Pritam\Desktop\mukti-landing-page\Font\stylesheet.css
+FileModTime:1504078805
+%EndFont
+
