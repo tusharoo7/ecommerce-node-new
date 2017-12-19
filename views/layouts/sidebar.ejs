@@ -36,20 +36,18 @@
 						
 					</ul>
 				</li>
-				<li class="has-sub ">
+				<li class="has-sub <% if (page_name === 'product') { %>active <% } %> ">
 					<a href="javascript:;">
-					<i class="icon-table"></i> 
-					<span class="title">Form Stuff</span>
-					<span class="arrow "></span>
+					<i class="icon-bookmark-empty"></i> 
+					<span class="title">Manage Product</span>
+					<span <% if (page_name === 'product') { %>class="selected" <% } %> ></span>
+					<span class="arrow <% if (page_name === 'product') { %>open <% } %>"></span>
 					</a>
 					<ul class="sub">
-						<li ><a href="form_layout.html">Form Layouts</a></li>
-						<li ><a href="form_samples.html">Advance Form Samples</a></li>
-						<li ><a href="form_component.html">Form Components</a></li>
-						<li ><a href="form_wizard.html">Form Wizard</a></li>
-						<li ><a href="form_validation.html">Form Validation</a></li>
-						<li ><a href="form_fileupload.html">Multiple File Upload</a></li>
-						<li ><a href="form_dropzone.html">Dropzone File Upload</a></li>
+						<li <% if (page_name === 'product') { %>class="active" <% } %> ><a href="/admin/product/category">Manage Category</a></li>
+						<li ><a href="#">Manage Subcategory</a></li>
+						<li ><a href="#">Manage Product</a></li>
+						
 					</ul>
 				</li>
 				<li class="has-sub ">

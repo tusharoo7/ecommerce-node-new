@@ -4,8 +4,6 @@ var http = require("http");
 var authentication_mdl = require('../middlewares/authentication');
 var session_store;
 var server = http.createServer(express);
-var md5 = require('md5');
-
 var multer  = require('multer');
 
 

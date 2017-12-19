@@ -147,7 +147,7 @@ router.post('/updateprofileinfo',function(req,res,next)
 {
 	    session_store=req.session;
 	   //res.redirect('/admin/dashboard/');
-	    console.log(req.body);
+	    //console.log(req.body);
 		req.assert('first_name' ,'Please Enter Your First Name').notEmpty();
 		req.assert('middle_name' ,'Please Enter Your Middle Name').notEmpty();
 		req.assert('last_name' ,'Please Enter Your Last Name').notEmpty();
@@ -327,7 +327,7 @@ router.get('/profile-pics',authentication_mdl.is_login, function (req, res) {
 
 var storage =   multer.diskStorage({  
   destination: function (req, file, callback) {  
-    callback(null, './uploads/profile');  
+    callback(null, './public/profile');  
   },  
   filename: function (req, file, callback) {  
     callback(null,  file.fieldname + '-' + Date.now());  
