@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 	<div class="page-sidebar nav-collapse collapse">
 			<!-- BEGIN SIDEBAR MENU -->        	
 			<ul>
@@ -129,4 +130,137 @@
 				</li>
 			</ul>
 			<!-- END SIDEBAR MENU -->
+=======
+	<div class="page-sidebar nav-collapse collapse">
+			<!-- BEGIN SIDEBAR MENU -->        	
+			<ul>
+				<li>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler hidden-phone"></div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li>
+					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+					<form class="sidebar-search">
+						<div class="input-box">
+							<a href="javascript:;" class="remove"></a>
+							<input type="text" placeholder="Search..." />				
+							<input type="button" class="submit" value=" " />
+						</div>
+					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
+				</li>
+				<li class="start  <% if (page_name === 'dashboard') { %>active <% } %> ">
+					<a href="/admin/dashboard/">
+					<i class="icon-home"></i> 
+					<span class="title">Dashboard</span>
+					<span <% if (page_name === 'dashboard') { %>class="selected" <% } %>></span>
+					</a>
+				</li>
+				<li class="has-sub <% if (page_name === 'cms') { %>active <% } %> ">
+					<a href="javascript:;">
+					<i class="icon-bookmark-empty"></i> 
+					<span class="title">Manage Cms</span>
+					<span <% if (page_name === 'cms') { %>class="selected" <% } %> ></span>
+					<span class="arrow <% if (page_name === 'cms') { %>open <% } %>"></span>
+					</a>
+					<ul class="sub">
+						<li <% if (page_name === 'cms') { %>class="active" <% } %>><a href="/admin/cms/">List Cms</a></li>
+						
+					</ul>
+				</li>
+				<li class="has-sub <% if (page_name === 'product') { %>active <% } %> ">
+					<a href="javascript:;">
+					<i class="icon-bookmark-empty"></i> 
+					<span class="title">Manage Product</span>
+					<span <% if (page_name === 'product') { %>class="selected" <% } %> ></span>
+					<span class="arrow <% if (page_name === 'product') { %>open <% } %>"></span>
+					</a>
+					<ul class="sub">
+						<li <% if (page_name === 'product') { %>class="active" <% } %> ><a href="/admin/product/category">Manage Category</a></li>
+						<li ><a href="#">Manage Subcategory</a></li>
+						<li ><a href="#">Manage Product</a></li>
+						
+					</ul>
+				</li>
+				<li class="has-sub ">
+					<a href="javascript:;">
+					<i class="icon-th-list"></i> 
+					<span class="title">Data Tables</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub">
+						<li ><a href="table_basic.html">Basic Tables</a></li>
+						<li ><a href="table_managed.html">Managed Tables</a></li>
+						<li ><a href="table_editable.html">Editable Tables</a></li>
+					</ul>
+				</li>
+				<li class="has-sub ">
+					<a href="javascript:;">
+					<i class="icon-th-list"></i> 
+					<span class="title">Portlets</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub">
+						<li ><a href="portlet_general.html">General Portlets</a></li>
+						<li ><a href="portlet_draggable.html">Draggable Portlets</a></li>
+					</ul>
+				</li>
+				<li class="has-sub ">
+					<a href="javascript:;">
+					<i class="icon-map-marker"></i> 
+					<span class="title">Maps</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub">
+						<li ><a href="maps_google.html">Google Maps</a></li>
+						<li ><a href="maps_vector.html">Vector Maps</a></li>
+					</ul>
+				</li>
+				<li class="">
+					<a href="charts.html">
+					<i class="icon-bar-chart"></i> 
+					<span class="title">Visual Charts</span>
+					</a>
+				</li>
+				<li class="">
+					<a href="calendar.html">
+					<i class="icon-calendar"></i> 
+					<span class="title">Calendar</span>
+					</a>
+				</li>
+				<li class="">
+					<a href="gallery.html">
+					<i class="icon-camera"></i> 
+					<span class="title">Gallery</span>
+					</a>
+				</li>
+				<li class="has-sub ">
+					<a href="javascript:;">
+					<i class="icon-briefcase"></i> 
+					<span class="title">Extra</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub">
+						<li ><a href="extra_profile.html">User Profile</a></li>
+
+						<li ><a href="extra_faq.html">FAQ</a></li>
+						<li ><a href="extra_search.html">Search Results</a></li>
+						<li ><a href="extra_invoice.html">Invoice</a></li>
+						<li ><a href="extra_pricing_table.html">Pricing Tables</a></li>
+						<li ><a href="extra_404.html">404 Page</a></li>
+						<li ><a href="extra_500.html">500 Page</a></li>
+						<li ><a href="extra_blank.html">Blank Page</a></li>
+						<li ><a href="extra_full_width.html">Full Width Page</a></li>
+					</ul>
+				</li>
+				<li class="">
+					<a href="login.html">
+					<i class="icon-user"></i> 
+					<span class="title">Login Page</span>
+					</a>
+				</li>
+			</ul>
+			<!-- END SIDEBAR MENU -->
+>>>>>>> 19e170ff9077989697cca98323f6ac5fda057642
 		</div>
