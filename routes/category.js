@@ -159,7 +159,7 @@ router.post('/insert_product/', function(req,res,next){
         
 //         }
 //	 else
-//	  { hhh
+//	  { hhh g
 //		      errors_detail = "<p>Sory there are error</p><ul>";
 //			  for (i in errors) 
 //			  { 
