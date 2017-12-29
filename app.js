@@ -19,9 +19,9 @@ var app = express();
 app.use(cookieParser());
  app.use(
 		connection(mysql,{
-							host: 'localhost',
+							host: '127.0.0.1',
 							user: 'root', // your mysql user
-							password : 'redhat456', // your mysql password
+							password : '', // your mysql password
 							port : 3306, //port mysql
 							database:'foodstore' // your database name
 						},
