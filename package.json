@@ -1,0 +1,31 @@
+{
+  "name": "tushar",
+  "version": "1.0.0",
+  "description": "my fist node js web application",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "cookie-parser": "^1.0.1",
+    "express": "4.16.2",
+    "express-flash": "0.0.2",
+    "express-flash-notification": "^0.5.0",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "logger": "0.0.1",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.1",
+    "package.json": "^2.0.1",
+	"async": "0.1.x",
+    "mkdirp": "0.3.x",
+    "temp": "0.5.x",
+    "gm": "1.8.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tushar kanti routh",
+  "license": "ISC"
+}

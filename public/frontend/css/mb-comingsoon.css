@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&text=0123456789);
+.counter-group {
+  margin: 10px auto;
+  margin-left: auto;
+  display: inline-block;
+  background: #FF8500;
+  padding: 20px 25px;
+  border-radius: 30px;
+  margin-left: 50px;
+  box-shadow:inset 0px 0px 4px #222;
+}
+.counter-block:last-child{margin-right:-6px;}
+.counter-group:before,
+.counter-group:after {
+  content: " ";
+  display: table;
+}
+.counter-group:after {
+  clear: both;
+}
+.counter-block {
+  float: left;
+  margin-right: 20px;
+}
+.counter-block .counter {
+  position: relative;
+  width: 75px;
+  height: 40px;
+  overflow: hidden;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed', 'Arial Narrow', 'Nimbus Sans L', sans-serif;
+}
+.counter-block .counter .number {
+  padding: 1%;
+  width: 32px;
+  height: 40px;
+  background-color: #FFB667;
+  color: #444;
+  position: absolute;
+  font-size: 26px;
+  line-height: 35px;
+  top: -10000px;
+  border:1px solid #fff;
+  text-align:center;
+  color:#020F22;
+  font-family: 'Days One', sans-serif;
+}
+.counter-block .counter .number.tens {
+  left: 0;
+}
+.counter-block .counter .number.units {
+  left: 50%;
+}
+.counter-block .counter .number.hundreds {
+  display: none;
+}
+.counter-block .counter .number.show {
+  top: 0;
+  z-index: 2;
+}
+.counter-block .counter .number.hidden-down {
+  top: 100%;
+}
+.counter-block .counter .number.hidden-up {
+  top: -100%;
+  z-index: 100;
+}
+.counter-block .counter.with-hundreds {
+  width: 300px;
+}
+.counter-block .counter.with-hundreds .number {
+  width: 30.66%;
+}
+.counter-block .counter.with-hundreds .number.tens {
+  left: 33.33%;
+}
+.counter-block .counter.with-hundreds .number.units {
+  left: 66.66%;
+}
+.counter-block .counter.with-hundreds .number.hundreds {
+  display: block;
+  left: 0;
+}
+.counter-block .counter-caption {
+  font-size: 14px; text-transform:uppercase; text-align:center; margin-top:7px;
+}
+
+
+@media screen and (max-width:991px){
+	.counter-block .counter .number{font-size:17px; width:25px; height:25px; line-height:25px; }
+	.counter-block{margin-right:4px;}	
+	.counter-block .counter{width:56px;}
+	.counter-block .counter{height:26px;}
+	.counter-group{margin:0px auto;}
+	.grab-form h2{font-size:24px;}
+}
+@media screen and (max-width:767px){
+	.counter-group{margin: 55px auto !important;display: block;width: 290px;}
+	.count-in h2{padding-top:34px; text-align:center; margin:0px; padding-left:0px;}
+	.grab-form h2{font-size:34px;}	
+}
