@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document edited pirtam */
 
@@ -173,4 +174,181 @@ html, body{width: 100%;height: 100% !important;}
     .absolute{position:fixed !important; z-index:999; }
 
 	
+=======
+@charset "utf-8";
+/* CSS Document edited pirtam */
+
+
+.text-uppercase{text-transform:uppercase;}
+
+body{font-weight:normal !important;font-family: 'Poppins', sans-serif !important; font-size:16px !important; background:#F5F5F5 !important;}
+.main-back{/*background:url(../images/back.png) no-repeat; background-size:cover; padding:0px 100px;*/ margin-top:30px;}
+a:hover{text-decoration:none !important;}
+a:focus{outline:none; text-emphasis:none; text-decoration:none}
+input:focus{outline:none;}
+header{position:absolute; top:0px; width:100%; z-index:99;}
+.top-logo{width:100%; position:absolute; top:0px; left:0px; right:0px; margin:20px auto; z-index:2;}
+.top-logo img{width:332px; float:left}
+.top-social li a{font-size:32px; color:#A1A8B0;}
+.top-social li:nth-child(2) a{color:#65BAF1;}
+.top-social li a:hover{color:#65BAF1;}
+.top-social li{margin-right:20px;}
+.top-social li:last-child{margin:0px;}
+.top-social{position:relative; top:30px;}
+
+.gap10{width:100%; height:10px;}
+.gap20{width:100%; height:20px;}
+.gap30{width:100%; height:30px;}
+.gap40{width:100%; height:40px;}
+.gap50{width:100%; height:50px;}
+
+
+
+
+.banner{position:relative;}
+.banner img{display:block; margin:0px auto;}
+.banner a{display:block; margin:0px auto;  color:#fff; text-transform:uppercase; font-size:21px; font-weight:700;  border-radius:15px; text-align:center;   position:absolute; bottom:26%;left:0px; right:0px; background: url(../images/button2.png) no-repeat !important;width: 320px !important;height: 143px !important; line-height:165px; }
+.banner a:hover{background:#42A7DE; color:#fff;}
+.banner a:focus{background:#42A7DE; color:#fff; outline:none}
+
+
+.gift h1{font-family: 'Days One', sans-serif; color:#ff8500; font-size:48px; padding-top:20px;}
+.grab-form{border-radius:20px; box-shadow: 0px 15px 18px #aaa; padding:25px; position:relative; background:#fff;}
+.grab-form .name{width:100%; height:64px; border:1px solid #43A8DE; border-radius:13px; padding:0px 15px; margin-bottom:30px; background:#EDEDED;}
+.grab-form .ff{background:#FF8500; position:absolute; bottom:-30px; padding:20px 35px; color:#fff; font-size:17px; font-weight:700; color:#fff; border:none; border-radius:23px; left:0px; right:0px; margin:0px auto; width:230px;}
+.grab-form .ff:hover{background:#65BAF1;}
+.grab-form h2{color:#00aeff; font-weight:300; font-size:37px;}
+.grab-back{background:url(../images/back1.png) -73px 69px no-repeat #fff; min-height:334px; background-size:cover;}
+.grab-back img{position:absolute; right:0px; bottom:-20px;}
+.vb{ min-height:334px;}
+.count-in h2{font-family: 'Days One', sans-serif; color:#fff; font-size:38px; padding-left:35px; padding-top:20px;}
+.cc{background:url(../images/button.png) no-repeat; background-size:cover; width:100%; height:126px; margin-top:20px; position:relative; z-index:99;}
+
+#clockdiv{width:390px; background:url(../images/timer.png) no-repeat #FF8500 center; padding:0px 15px; border-radius:30px;/* box-shadow:inset 0px 0px  5px #333;*/ /*background-size:cover;*/ height:92px;  margin:15px auto; position:relative;}
+#clockdiv div{width:auto; float:left; margin-left:22px; position:relative}
+#clockdiv div:last-child{margin:0px; position:absolute; right:24px;}
+#clockdiv div div{display:block; text-transform:uppercase; font-size:14px; position:relative; left:2px;}
+#clockdiv div span{display:block;font-family: 'Days One', sans-serif;font-size: 27px;
+letter-spacing: 13px;margin-top: 28px; }
+#clockdiv div:first-child div{padding-left:5px;}
+
+.copy label{font-weight:400;}
+.want-panel{display:none;}
+.copy{width:100%; /*position:fixed;*/ bottom:0px; left:0px; right:0px; margin:0px auto; background:#F5F5F5;padding-top:10px; padding-bottom:10px; line-height:30px;}
+.bt-hover:hover{background: url(../images/button-hover.png) no-repeat !important;width: 320px !important;height: 143px !important; line-height:165px; }
+
+
+
+.shake {
+  animation: shake_7163 2.875s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes shake_7163 {
+  0% { transform:rotate(-12deg) }
+  10.66667% { transform:rotate(12deg) }
+  13.33333% { transform:rotate(24deg) }
+  24% { transform:rotate(-24deg) }
+  26.66667% { transform:rotate(-24deg) }
+  37.33333% { transform:rotate(24deg) }
+  40% { transform:rotate(24deg) }
+  50.66667% { transform:rotate(-24deg) }
+  53.33333% { transform:rotate(-24deg) }
+  64% { transform:rotate(24deg) }
+  66.66667% { transform:rotate(24deg) }
+  77.33333% { transform:rotate(-24deg) }
+  80% { transform:rotate(-24deg) }
+  90.66667% { transform:rotate(24deg) }
+  100% { transform:rotate(0deg) }
+}
+.bounce {
+  animation: bounce_1851 3.6s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes bounce_1851 {
+  0% { transform:translateY(0) }
+  5.55556% { transform:translateY(0) }
+  11.11111% { transform:translateY(0) }
+  22.22222% { transform:translateY(-15px) }
+  27.77778% { transform:translateY(0) }
+  33.33333% { transform:translateY(-15px) }
+  44.44444% { transform:translateY(0) }
+  100% { transform:translateY(0) }
+}
+
+.tada {
+  animation: tada_570 1.8s linear infinite;
+  /*transform-origin: 50% 50%;*/
+}
+
+@keyframes tada_570 {
+  0% { transform: rotate(0deg) }
+  /*12.5% { transform:rotate(-8deg) }*/
+ /* 25% { transform: rotate(-8deg) }*/
+  20.5% { transform:rotate(8deg) }
+  /*50% { transform: rotate(-8deg) }
+  62.5% { transform: rotate(8deg) }*/
+  /*75% { transform:rotate(-8deg) }*/
+  57.5% { transform:rotate(-8deg) }
+  100% { transform: rotate(0deg) }
+}
+  
+/*http://waitanimate.wstone.io/#!/ animation link*/
+html, body{width: 100%;height: 100% !important;}
+
+
+
+
+/*------------responsive desing-----------------*/
+
+@media screen and (max-width:991px){
+	.count-in h2{font-size:23px;}	
+}
+
+
+@media screen and (max-width:767px){
+	.top-logo img{width:180px; float:left}
+	.top-social{position:relative; top:0px;}
+	.gift h1{font-size:32px;}
+	.grab-back{margin-top:50px}
+	.grab-back{background-size:cover !important; height:auto; min-height:300px; background-position:center;}
+	.grab-back img{width:200px;}
+	.cc{background-position: center;}
+	.copy span{display:block; width:100%; text-align:center}
+	.top-social li a{font-size:21px;}
+	.top-social li{margin-right:0px;}
+	.copy span{display:block; width:100%; text-align:center;}
+	.copy p{margin-top:25px;}
+}
+@media screen and (max-width:520px){
+	.count-in h2{font-size:23px;}
+	.grab-back img{width:120px;}
+	#clockdiv{width:280px; background-position:center; background:url(../images/timer2.png) no-repeat #FF8500 center !important; height:74px;}
+	#clockdiv div{margin-left:0px; margin-right:13px;}
+	#clockdiv div:last-child{right:-3px;}
+	.cc .col-sm-6{padding:0px !important;}
+	#clockdiv div span{font-size:16px;}
+	#clockdiv div div{margin-top:3px !important; font-size:10px;}
+	#clockdiv div:last-child{right:10px;}
+	#clockdiv div:first-child{margin-left:10px;}
+	.gift h1{font-size:27px;}
+	/*.banner a{width:100px; height:30px; line-height:30px; font-size:12px; border-radius:10px;}*/
+	.top-logo img{width:120px;}
+	.bt-hover:hover{background: url(../images/button-hover.png) no-repeat 100% 100% !important; background-size:cover !important; border-radius:20px; line-height:125px;}
+	.banner a{background: url(../images/button2.png) no-repeat 100% 100% !important; background-size:cover !important; border-radius:20px; line-height:125px;}
+	
+	.banner{width:100%; height:100%; position:absolute; background:url(../images/banner.png) center no-repeat; background-size:cover !important  }
+	.banner img{width:100%; height:100%; display:none}
+	.copy{position:absolute; bottom:0px; background:#fff; padding-top:0px !important;}
+	.container{padding:0px !important;}
+	.top-logo{padding:0px 10px;}
+	.gift h1{padding:0px 15px;}
+	#myCounter{margin-bottom:110px;}
+	.want-panel{padding:0px 15px;}
+	.relative{position:relative !important; height:350px !important;}
+    .absolute{position:fixed !important; z-index:999; }
+
+	
+>>>>>>> 19e170ff9077989697cca98323f6ac5fda057642
 	

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
@@ -153,3 +154,160 @@
     </script>
 </body>
 </html>
+=======
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daizik</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/../frontend/css/mystyle.css" type="text/css" />
+<link rel="stylesheet" href="/../frontend/css/bootstrap.min.css" type="text/css" />   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,300,400,500,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+<link href="/../frontend/css/mb-comingsoon.css" rel="stylesheet" />
+<!--<link rel="stylesheet" href="css/animate.css" type="text/css" />-->
+<!--<link rel="stylesheet" href="css/jquery.countdown.css" type="text/css" />-->
+</head>
+
+<body>
+
+	<div class="container">
+    	<div class="main-back">
+    		<div class="top-logo">
+            	<div class="container">
+        		<a href="#"><img src="/../frontend/images/logo2.png" class="img-responsive" alt="" /></a>
+                <div class="top-social list-inline pull-right">
+                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </div>
+                </div>
+        	</div>
+        		<div class="clearfix"></div>
+       		
+        	<div class="clearfix"></div>
+            <div class="banner-of">
+            <div class="banner">
+            	<img src="/../frontend/images/banner.png" class="img-responsive" alt="" />
+                <a href="#want-panel" class="tada bt-hover click-want cc cc1">I want too</a>
+                
+		
+				
+				
+            </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="want-panel" id="want-panel">
+            	<div class="gift">
+            	<h1>GRAB YOUR GIFT</h1>
+                <div class="gap20"></div>
+                <div class="row">
+                	<div class="col-sm-6">
+                    	<div class="grab-form vb">
+                        	<input type="text" placeholder="Name" class="name" />
+                            <input type="text" placeholder="E-mail" class="name" />
+                            <input type="text" placeholder="Phone number" class="name" />
+                            <input type="submit" value="SNATCH YOUR GIFT" class="ff" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                    	<div class="grab-form grab-back">
+                        	<h2>“A gift for every<br/ >
+                                curious mind<br />
+                                is on the way”
+                           </h2>
+                           <img src="/../frontend/images/box.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+                <div class="clearfix"></div>
+                <div class="gap50"></div>
+                <div class="gap20"></div>
+            	<div class="count-in">
+            	<div class="row">
+            	<div class="cc">
+                	<div class="col-sm-6">
+                    	<h2>Your gift Unwrapping in</h2>
+                    </div>
+                    <div class="col-sm-6">
+							<!--<div id="clockdiv">
+                              <div>
+                                <span class="days"></span>
+                                <div class="smalltext">Days</div>
+                              </div>
+                              <div>
+                                <span class="hours"></span>
+                                <div class="smalltext">Hours</div>
+                              </div>
+                              <div>
+                                <span class="minutes"></span>
+                                <div class="smalltext">Minutes</div>
+                              </div>
+                              <div>
+                                <span class="seconds"></span>
+                                <div class="smalltext last-second" style="left:-7px;">Seconds</div>
+                              </div>
+                            </div>-->
+                             <div id="myCounter"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                <div class="clearfix"></div>
+                <div class="gap50"></div>
+            </div>    
+            <div class="copy">
+            	<div class="container">
+            	<p><span class="pull-left">©  2017 Daizik. All Rights Reserved.</span>
+                	<span class="pull-right">
+                    	<label>Privacy </label>  |   <label>Terms & Conditions</label>
+                    </span>
+                </p>  
+                <div class="clearfix"></div> 
+                </div> 
+            </div>
+            
+            
+        </div>
+    </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	
+        $(".click-want").click(function(){
+			$(".want-panel").fadeIn();
+		});
+		 $(".banner a").hover(function () {
+    $(this).toggleClass("tada");
+	$(".cc").click(function(){
+		$(".banner").addClass("relative");
+	});
+	$(".cc1").click(function(){
+		$(".copy").addClass("absolute");
+	});
+ });
+   
+</script>
+ <script src="/../frontend/js/jquery.mb-comingsoon.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $section = $('section');
+            $(window).on("resize", function () {
+                var dif = Math.max($(window).height() - $section.height(), 0);
+                var padding = Math.floor(dif / 2) + 'px';
+                $section.css({ 'padding-top': padding, 'padding-bottom': padding });
+            }).trigger("resize");
+            $('#myCounter').mbComingsoon({ expiryDate: new Date(2018, 0, 1, 9, 30), speed:100 });
+            setTimeout(function () {
+                $(window).resize();
+            }, 200);
+        });
+
+    </script>
+</body>
+</html>
+>>>>>>> 19e170ff9077989697cca98323f6ac5fda057642

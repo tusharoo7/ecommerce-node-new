@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%- include ../layouts/header.ejs %>
 <!-- BEGIN CONTAINER -->
 <div class="page-container row-fluid">
@@ -141,4 +142,149 @@
 <!-- END PAGE -->
 </div>
 <!-- END CONTAINER -->
+=======
+<%- include ../layouts/header.ejs %>
+<!-- BEGIN CONTAINER -->
+<div class="page-container row-fluid">
+<!-- BEGIN SIDEBAR -->
+<%- include ../layouts/sidebar.ejs %>		
+<!-- END SIDEBAR -->
+<!-- BEGIN PAGE -->
+  <div class="page-content">
+         <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         <div id="portlet-config" class="modal hide">
+            <div class="modal-header">
+               <button data-dismiss="modal" class="close" type="button"></button>
+               <h3>portlet Settings</h3>
+            </div>
+            <div class="modal-body">
+               <p>Here will be a configuration form</p>
+            </div>
+         </div>
+         <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         <!-- BEGIN PAGE CONTAINER-->
+         <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->   
+            <div class="row-fluid">
+               <div class="span12">
+                  <!-- BEGIN STYLE CUSTOMIZER -->
+                  <div class="color-panel hidden-phone">
+                     <div class="color-mode-icons icon-color"></div>
+                     <div class="color-mode-icons icon-color-close"></div>
+                     <div class="color-mode">
+                        <p>THEME COLOR</p>
+                        <ul class="inline">
+                           <li class="color-black current color-default" data-style="default"></li>
+                           <li class="color-blue" data-style="blue"></li>
+                           <li class="color-brown" data-style="brown"></li>
+                           <li class="color-purple" data-style="purple"></li>
+                           <li class="color-white color-light" data-style="light"></li>
+                        </ul>
+                        <label class="hidden-phone">
+                        <input type="checkbox" class="header" checked value="" />
+                        <span class="color-mode-label">Fixed Header</span>
+                        </label>                    
+                     </div>
+                  </div>
+                  <!-- END BEGIN STYLE CUSTOMIZER -->   
+                  <h3 class="page-title">
+                     Form Components
+                     <small>form components and widgets</small>
+                  </h3>
+                  <ul class="breadcrumb">
+                     <li>
+                        <i class="icon-home"></i>
+                        <a href="index.html">Home</a> 
+                        <span class="icon-angle-right"></span>
+                     </li>
+                     <li>
+                        <a href="#">Form Stuff</a>
+                        <span class="icon-angle-right"></span>
+                     </li>
+                     <li><a href="#">Form Components</a></li>
+                  </ul>
+               </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row-fluid">
+               <div class="span12">
+                  <!-- BEGIN SAMPLE FORM PORTLET-->   
+                  <div class="portlet box blue">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Sample Form</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                           <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                           <a href="javascript:;" class="reload"></a>
+                           <a href="javascript:;" class="remove"></a>
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" class="form-horizontal">
+                           <div class="control-group">
+                              <label class="control-label">Input</label>
+                              <div class="controls">
+                                 <input type="text" class="span6 m-wrap" />
+                                 <span class="help-inline">Some hint here</span>
+                              </div>
+                           </div>
+                           
+                           <div class="control-group">
+                              <label class="control-label">Readonly Input</label>
+                              <div class="controls">
+                                 <input class="span6 m-wrap" type="text" placeholder="Readonly input here..." disabled />
+                                 <span class="help-inline">Some hint here</span>
+                              </div>
+                           </div>
+                           
+                           <div class="control-group">
+                              <label class="control-label">Input with Tooltip</label>
+                              <div class="controls">
+                                 <input type="text" class="span6 m-wrap tooltips" data-trigger="hover" data-original-title="Tooltip text goes here. Tooltip text goes here." />                       
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           <div class="form-actions">
+                              <button type="submit" class="btn blue">Submit</button>
+                              <button type="button" class="btn">Cancel</button>
+                           </div>
+                        </form>
+                        <!-- END FORM-->           
+                     </div>
+                  </div>
+                  <!-- END SAMPLE FORM PORTLET-->
+               </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- END PAGE CONTENT-->         
+         </div>
+         <!-- END PAGE CONTAINER-->
+      </div>
+<!-- END PAGE -->
+</div>
+<!-- END CONTAINER -->
+>>>>>>> 19e170ff9077989697cca98323f6ac5fda057642
 <%- include ../layouts/footer.ejs %>
