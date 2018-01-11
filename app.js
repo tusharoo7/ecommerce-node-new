@@ -91,6 +91,9 @@ app.use('/admin', admin);
 var cms = require('./routes/cms.js');
 app.use('/admin/cms', cms);
 
+var category = require('./routes/category.js');
+app.use('/admin/product/category', category);
+
 /*app.use(function (req, res, next) {
 
  if (req.session.is_login) 

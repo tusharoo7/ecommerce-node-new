@@ -120,8 +120,23 @@
 										<tr class="">
                                                                                         <td><%= index+1 %></td>
 											<td><%= item.cat_name %></td>
-											<td><%= item.cat_short_des.slice(0,100); %><%='...'%></td>
-                                                                                       <td><%= item.cat_thumb.slice(0,100); %><%='...'%></td>
+											<td><p><%= item.cat_short_des.slice(0,100); %></p><%='...'%></td>
+                                                                                       <td> 
+                                                                                     <%  if(item.cat_thumb!="")
+                                                                                       {
+                                                                                       %>
+                                                                                       	<img src="/../uploads<%= item.cat_thumb %>" />
+                                                                                      <% 
+                                                                                       }
+                                                                                       else
+                                                                                       {
+                                                                                       %>
+                                                                                       	<img src="/../assets/img/nophoto.png" height="100px" width="100px" />
+                                                                                       	<%
+                                                                                       }
+                                                                                       %>
+
+                                                                                       </td>
 											<td> <% if (item.status == 'A') { %>
                                                                                         <a class="btn mini green" onclick="return confirm('Are you sure?');"  href="/admin/cms/inactive/<%=item.cat_id%>">Active</a>
                                                                                         <% } else { %>

@@ -31,8 +31,9 @@
         <script type="text/javascript" src="/../assets/data-tables/DT_bootstrap.js"></script>
         
         <script type="text/javascript" src="/../assets/alertbox/sweetalert.min.js"></script>
-         <script type="text/javascript" src="/../assets/ckeditor/ckeditor.js"></script>   
-
+         <script type="text/javascript" src="/../assets/ckeditor/ckeditor.js"></script> 
+         
+        <script type="text/javascript" src="/../assets/slugger/slugger.min.js"></script> 
 
 	<script src="/../assets/js/app.js"></script>				
 	<script>
@@ -40,6 +41,10 @@
 			App.setPage("table_editable");  // set current page
 			App.init(); // init the rest of plugins and elements
 		});
+
+		$('#cat_url').slugger({
+	  							source: '#cat_name'
+								})
 	</script>
 
 
